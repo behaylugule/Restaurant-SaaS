@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 5, "column": 0}, "map": {"version":3,"sources":["file:///home/behaylu/Documents/project/upwork/postwork/bookshelf/frontend/app/dashboard/users/page.tsx"],"sourcesContent":["'use client'\nimport { useAuth } from \"@/components/AuthContext\"\nimport { useRouter } from \"next/navigation\"\nimport { useEffect } from \"react\"\n\nexport default function Page(){\n       const {user} = useAuth()\n       const router = useRouter()\n       useEffect(()=>{\n          if(user?.role!='admin'){\n             router.push('/dashboard')\n          }\n    \n       },[user])\n    return(\n        <>User list</>\n    )\n}"],"names":[],"mappings":";;;;AACA;AACA;AACA;AAHA;;;;;AAKe,SAAS;IACjB,MAAM,EAAC,IAAI,EAAC,GAAG,CAAA,GAAA,0HAAA,CAAA,UAAO,AAAD;IACrB,MAAM,SAAS,CAAA,GAAA,kIAAA,CAAA,YAAS,AAAD;IACvB,CAAA,GAAA,qMAAA,CAAA,YAAS,AAAD,EAAE;QACP,IAAG,MAAM,QAAM,SAAQ;YACpB,OAAO,IAAI,CAAC;QACf;IAEH,GAAE;QAAC;KAAK;IACX,qBACI;kBAAE;;AAEV","debugId":null}}]
+}

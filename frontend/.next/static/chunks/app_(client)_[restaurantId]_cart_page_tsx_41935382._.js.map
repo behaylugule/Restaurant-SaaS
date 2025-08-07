@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///home/behaylu/Documents/project/upwork/postwork/restaurantSaaS/frontend/app/%28client%29/%5BrestaurantId%5D/cart/page.tsx"],"sourcesContent":["\"use client\";\n\nimport { useCart } from \"@/components/CartContext\";\n\nexport default function Page() {\n  const { cartItems, incrementQuantity, decrementQuantity, removeFromCart } =\n    useCart();\n  return (\n    <div className=\"w-full h-full  h-screen\">\n      <div className=\"w-full flex items-center justify-center\">\n        <h1 className=\"mt-24 text-4xl font-bold text-[#C71F37]\">My Cart</h1>\n      </div>\n      <div className=\"px-4\">\n        {cartItems.map((data) => {\n          return (\n            <div className=\"w-full border-y-2 border-[#C71F37] py-4 \">d</div>\n          );\n        })}\n      </div>\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;AAEA;;;AAFA;;AAIe,SAAS;;IACtB,MAAM,EAAE,SAAS,EAAE,iBAAiB,EAAE,iBAAiB,EAAE,cAAc,EAAE,GACvE,CAAA,GAAA,6HAAA,CAAA,UAAO,AAAD;IACR,qBACE,6LAAC;QAAI,WAAU;;0BACb,6LAAC;gBAAI,WAAU;0BACb,cAAA,6LAAC;oBAAG,WAAU;8BAA0C;;;;;;;;;;;0BAE1D,6LAAC;gBAAI,WAAU;0BACZ,UAAU,GAAG,CAAC,CAAC;oBACd,qBACE,6LAAC;wBAAI,WAAU;kCAA2C;;;;;;gBAE9D;;;;;;;;;;;;AAIR;GAjBwB;;QAEpB,6HAAA,CAAA,UAAO;;;KAFa","debugId":null}}]
+}

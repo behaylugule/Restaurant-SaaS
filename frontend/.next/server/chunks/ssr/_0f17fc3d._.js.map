@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 5, "column": 0}, "map": {"version":3,"sources":["file:///home/behaylu/Documents/project/upwork/postwork/bookshelf/frontend/app/dashboard/books/page.tsx"],"sourcesContent":["'use client'\nimport { useAuth } from \"@/components/AuthContext\" \nimport { useEffect } from \"react\"\nimport { useRouter } from \"next/navigation\"\n\nexport default function Page(){\n    const {isAuthenticated} = useAuth()\n    const router = useRouter()\n\n\n    useEffect(()=>{\n       if(!isAuthenticated){\n            router.push('/login')\n        }\n    },[isAuthenticated])\n    return(\n        <>\n            <h1>Page</h1>\n        </>\n    )\n}"],"names":[],"mappings":";;;;AACA;AACA;AACA;AAHA;;;;;AAKe,SAAS;IACpB,MAAM,EAAC,eAAe,EAAC,GAAG,CAAA,GAAA,0HAAA,CAAA,UAAO,AAAD;IAChC,MAAM,SAAS,CAAA,GAAA,kIAAA,CAAA,YAAS,AAAD;IAGvB,CAAA,GAAA,qMAAA,CAAA,YAAS,AAAD,EAAE;QACP,IAAG,CAAC,iBAAgB;YACf,OAAO,IAAI,CAAC;QAChB;IACJ,GAAE;QAAC;KAAgB;IACnB,qBACI;kBACI,cAAA,8OAAC;sBAAG;;;;;;;AAGhB","debugId":null}},
+    {"offset": {"line": 42, "column": 0}, "map": {"version":3,"sources":["file:///home/behaylu/Documents/project/upwork/postwork/bookshelf/frontend/node_modules/next/navigation.js"],"sourcesContent":["module.exports = require('./dist/client/components/navigation')\n"],"names":[],"mappings":"AAAA,OAAO,OAAO","ignoreList":[0],"debugId":null}}]
+}

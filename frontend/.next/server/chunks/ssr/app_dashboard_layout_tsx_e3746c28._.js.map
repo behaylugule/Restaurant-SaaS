@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 5, "column": 0}, "map": {"version":3,"sources":["file:///home/behaylu/Documents/project/upwork/postwork/bookshelf/frontend/app/dashboard/layout.tsx"],"sourcesContent":["import { ReactNode } from \"react\";\n\n\nexport default function Layout({children,}:Readonly<{children:ReactNode}>){\n\n    return (\n        <div>\n            Si\n\n        </div>\n    )\n}"],"names":[],"mappings":";;;;;AAGe,SAAS,OAAO,EAAC,QAAQ,EAAiC;IAErE,qBACI,8OAAC;kBAAI;;;;;;AAKb","debugId":null}}]
+}

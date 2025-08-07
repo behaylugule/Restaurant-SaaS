@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///home/behaylu/Documents/project/upwork/postwork/restaurantSaaS/frontend/app/page.tsx"],"sourcesContent":["\"use client\";\n\nimport { useAuth } from \"@/components/AuthContext\";\nimport { useEffect } from \"react\";\nimport { useRouter } from \"next/navigation\";\nexport default function Home() {\n  const { isAuthenticated, user } = useAuth();\n\n  console.log(\"is Auth\", isAuthenticated);\n  const router = useRouter();\n  console.log(\"user\", user);\n\n  useEffect(() => {}, []);\n  return <>Home page</>;\n}\n"],"names":[],"mappings":";;;;AAEA;AACA;AACA;;;AAJA;;;;AAKe,SAAS;;IACtB,MAAM,EAAE,eAAe,EAAE,IAAI,EAAE,GAAG,CAAA,GAAA,6HAAA,CAAA,UAAO,AAAD;IAExC,QAAQ,GAAG,CAAC,WAAW;IACvB,MAAM,SAAS,CAAA,GAAA,qIAAA,CAAA,YAAS,AAAD;IACvB,QAAQ,GAAG,CAAC,QAAQ;IAEpB,CAAA,GAAA,6JAAA,CAAA,YAAS,AAAD;0BAAE,KAAO;yBAAG,EAAE;IACtB,qBAAO;kBAAE;;AACX;GATwB;;QACY,6HAAA,CAAA,UAAO;QAG1B,qIAAA,CAAA,YAAS;;;KAJF","debugId":null}},
+    {"offset": {"line": 50, "column": 0}, "map": {"version":3,"sources":["file:///home/behaylu/Documents/project/upwork/postwork/restaurantSaaS/frontend/node_modules/next/navigation.js"],"sourcesContent":["module.exports = require('./dist/client/components/navigation')\n"],"names":[],"mappings":"AAAA,OAAO,OAAO","ignoreList":[0],"debugId":null}}]
+}

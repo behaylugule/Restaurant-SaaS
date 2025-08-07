@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 5, "column": 0}, "map": {"version":3,"sources":["file:///home/behaylu/Documents/project/upwork/postwork/restaurantSaaS/frontend/app/%28client%29/%5BrestaurantId%5D/orderlist/page.tsx"],"sourcesContent":["\"use client\";\nexport default function Page() {\n  return (\n    <div className=\"w-full h-full  h-screen\">\n      <div className=\"w-full flex items-center justify-center\">\n        <h1 className=\"mt-16 text-4xl font-bold text-[#C71F37]\">Order List</h1>\n      </div>\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;AAAA;;AACe,SAAS;IACtB,qBACE,8OAAC;QAAI,WAAU;kBACb,cAAA,8OAAC;YAAI,WAAU;sBACb,cAAA,8OAAC;gBAAG,WAAU;0BAA0C;;;;;;;;;;;;;;;;AAIhE","debugId":null}}]
+}

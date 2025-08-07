@@ -1,0 +1,51 @@
+{
+  "app": {
+    "[project]/app/dashboard/categories/page": [
+      "static/media/b0a57561b6cb5495-s.p.da1ebef7.woff2",
+      "static/media/8ee3a1ba4ed5baee-s.p.be19f591.woff2"
+    ],
+    "[project]/app/dashboard/dining-tables/page": [
+      "static/media/b0a57561b6cb5495-s.p.da1ebef7.woff2",
+      "static/media/8ee3a1ba4ed5baee-s.p.be19f591.woff2"
+    ],
+    "[project]/app/dashboard/feedbacks/page": [
+      "static/media/b0a57561b6cb5495-s.p.da1ebef7.woff2",
+      "static/media/8ee3a1ba4ed5baee-s.p.be19f591.woff2"
+    ],
+    "[project]/app/dashboard/menu/page": [
+      "static/media/b0a57561b6cb5495-s.p.da1ebef7.woff2",
+      "static/media/8ee3a1ba4ed5baee-s.p.be19f591.woff2"
+    ],
+    "[project]/app/dashboard/orders/page": [
+      "static/media/b0a57561b6cb5495-s.p.da1ebef7.woff2",
+      "static/media/8ee3a1ba4ed5baee-s.p.be19f591.woff2"
+    ],
+    "[project]/app/dashboard/organizations/page": [
+      "static/media/b0a57561b6cb5495-s.p.da1ebef7.woff2",
+      "static/media/8ee3a1ba4ed5baee-s.p.be19f591.woff2"
+    ],
+    "[project]/app/dashboard/page": [
+      "static/media/b0a57561b6cb5495-s.p.da1ebef7.woff2",
+      "static/media/8ee3a1ba4ed5baee-s.p.be19f591.woff2"
+    ],
+    "[project]/app/dashboard/shops/page": [
+      "static/media/b0a57561b6cb5495-s.p.da1ebef7.woff2",
+      "static/media/8ee3a1ba4ed5baee-s.p.be19f591.woff2"
+    ],
+    "[project]/app/dashboard/users/page": [
+      "static/media/b0a57561b6cb5495-s.p.da1ebef7.woff2",
+      "static/media/8ee3a1ba4ed5baee-s.p.be19f591.woff2"
+    ],
+    "[project]/app/login/page": [
+      "static/media/b0a57561b6cb5495-s.p.da1ebef7.woff2",
+      "static/media/8ee3a1ba4ed5baee-s.p.be19f591.woff2"
+    ],
+    "[project]/app/page": [
+      "static/media/b0a57561b6cb5495-s.p.da1ebef7.woff2",
+      "static/media/8ee3a1ba4ed5baee-s.p.be19f591.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pages": {},
+  "pagesUsingSizeAdjust": false
+}

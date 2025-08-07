@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///home/behaylu/Documents/project/upwork/postwork/bookshelf/frontend/app/dashboard/page.tsx"],"sourcesContent":["\n'use client'\nimport { useEffect } from \"react\"\nimport { useAuth } from \"@/components/AuthContext\"\nimport { useRouter } from \"next/navigation\"\n\nexport default function Page(){\n    const {isAuthenticated} = useAuth()\n     const router = useRouter()\n      useEffect(()=>{\n        router.push('/dashboard/books')\n      },[isAuthenticated])\n    return<></>\n}"],"names":[],"mappings":";;;;AAEA;AACA;AACA;;;AAHA;;;;AAKe,SAAS;;IACpB,MAAM,EAAC,eAAe,EAAC,GAAG,CAAA,GAAA,6HAAA,CAAA,UAAO,AAAD;IAC/B,MAAM,SAAS,CAAA,GAAA,qIAAA,CAAA,YAAS,AAAD;IACtB,CAAA,GAAA,6JAAA,CAAA,YAAS,AAAD;0BAAE;YACR,OAAO,IAAI,CAAC;QACd;yBAAE;QAAC;KAAgB;IACrB,qBAAM;AACV;GAPwB;;QACM,6HAAA,CAAA,UAAO;QACjB,qIAAA,CAAA,YAAS;;;KAFL","debugId":null}},
+    {"offset": {"line": 50, "column": 0}, "map": {"version":3,"sources":["file:///home/behaylu/Documents/project/upwork/postwork/bookshelf/frontend/node_modules/next/navigation.js"],"sourcesContent":["module.exports = require('./dist/client/components/navigation')\n"],"names":[],"mappings":"AAAA,OAAO,OAAO","ignoreList":[0],"debugId":null}}]
+}

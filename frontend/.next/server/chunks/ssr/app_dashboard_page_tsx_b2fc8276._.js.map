@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 5, "column": 0}, "map": {"version":3,"sources":["file:///home/behaylu/Documents/project/upwork/postwork/bookshelf/frontend/app/dashboard/page.tsx"],"sourcesContent":["\n'use client'\nimport { useEffect } from \"react\"\nimport { useAuth } from \"@/components/AuthContext\"\nimport { useRouter } from \"next/navigation\"\n\nexport default function Page(){\n    const {isAuthenticated} = useAuth()\n     const router = useRouter()\n      useEffect(()=>{\n        if(!isAuthenticated){\n            router.push('/login')\n        }\n         \n      },[isAuthenticated])\n    return<>\n    <div className=\"w-full\">\n        <div className=\"flex justify-between items-center px-12 py-16\">\n                          <h3>Dashboard</h3>\n                          \n                          \n          </div>\n        <div>\n\n        </div>\n    </div>\n    </>\n}"],"names":[],"mappings":";;;;AAEA;AACA;AACA;AAHA;;;;;AAKe,SAAS;IACpB,MAAM,EAAC,eAAe,EAAC,GAAG,CAAA,GAAA,0HAAA,CAAA,UAAO,AAAD;IAC/B,MAAM,SAAS,CAAA,GAAA,kIAAA,CAAA,YAAS,AAAD;IACtB,CAAA,GAAA,qMAAA,CAAA,YAAS,AAAD,EAAE;QACR,IAAG,CAAC,iBAAgB;YAChB,OAAO,IAAI,CAAC;QAChB;IAEF,GAAE;QAAC;KAAgB;IACrB,qBAAM;kBACN,cAAA,8OAAC;YAAI,WAAU;;8BACX,8OAAC;oBAAI,WAAU;8BACG,cAAA,8OAAC;kCAAG;;;;;;;;;;;8BAItB,8OAAC;;;;;;;;;;;;AAKT","debugId":null}}]
+}
